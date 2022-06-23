@@ -1,22 +1,17 @@
-const arr=['lucas','santi'];
-const prop=[20,33];
+/*	Ejercicio 3. Sumatoria
+	
+Debés crear una función llamada `sumattion` que reciba un número como parámetro y que devuelva la sumatoria de todos sus números anteriores, incluso ese mismo.
 
+Ejemplo: 
+-	sumattion(3) debe retornar 6 porque hace (1 +2 +3)
+-	sumattion(8) debe retornar 36
+*/
 
-let nuevoArr =[];
+const number=8;
 
-for (let i = 0; i < arr.length; i++) {
+    let sum = number; 
+    // Completá el código 
+    for (let i = 0; i < number; i++){
+    sum += i;}
+console.log (sum);
 
-let obj ={};
-
-// Completá el objeto
-
-
-nuevoArr.push(obj);
-
-}
-
-return nuevoArr;
-
-
-
-console.log(nuevoArr)

@@ -1,9 +1,8 @@
+/*	4. Callback
 
-const number=8;
-
-    let sum = number; 
-    // Completá el código 
-    for (let i = 0; i < number; i++){
-    sum += i;}
-console.log (sum);
-
+Debes crear una función llamada callback que reciba como Parámetros un número y una función. Esta deberá retornar el resultado de esa función pasándole como argumento el número que llega por parámetro.
+Teoría de callbacks: click aqui
+Ejemplo:
+-	callback(5, (num)=>{return num*10}) debe retornar 50
+-	callback(25, (num)=>{return num/5}) debe retornar 5
+*/
