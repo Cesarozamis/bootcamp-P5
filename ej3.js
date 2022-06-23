@@ -7,11 +7,16 @@ Ejemplo:
 -	sumattion(8) debe retornar 36
 */
 
-const number=8;
+let numero=8;
 
-    let sum = number; 
-    // Completá el código 
-    for (let i = 0; i < number; i++){
-    sum += i;}
-console.log (sum);
 
+function sumattion() {
+    let suma=0;
+    for (let index = 0; index <= numero; index++) {
+        suma=index+suma;
+        
+    }
+        console.log (suma);
+}
+
+return(sumattion(numero));

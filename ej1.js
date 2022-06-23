@@ -5,13 +5,15 @@ Debés crear una función llamada loopDePares que reciba como parámetro un núm
 En caso de que el número de la iteración, sumado con el número pasado por parámetro, sea par, mostrá en la consola “El número x es par”.
 */
 
-
-function loopdepares(){
+let num = 5;
+function loopdepares(num){
     for (let i = 0; i <= 100; i++) {
-        (i % 2)? console.log(i) : console.log("El numero " + (i) + " es par");
-            
+        console.log(i);
+          if ((i+num)%2===0) {
+            console.log("El numero "+(i+num)+" es par" );
+          }  
         }
         
     }
 
-console.log( loopdepares () );
+return( loopdepares (num) );
